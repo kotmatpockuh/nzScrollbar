@@ -294,7 +294,7 @@
                         if (offset === 0 || offset === max) {
                             return;
                         } else {
-                            e.preventDefault();
+                            //e.preventDefault();
                             e.stopPropagation();
                             e.returnValue = false;
                             return false;
@@ -336,7 +336,7 @@
                             requestAnimationFrame(autoScroll);
                         }
 
-                        e.preventDefault();
+                        //e.preventDefault();
                         e.stopPropagation();
                         return false;
                     }
