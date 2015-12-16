@@ -295,7 +295,7 @@
                             return;
                         } else {
                             //e.preventDefault();
-                            e.stopPropagation();
+                            //e.stopPropagation();
                             e.returnValue = false;
                             return false;
                         }
@@ -337,7 +337,7 @@
                         }
 
                         //e.preventDefault();
-                        e.stopPropagation();
+                        //e.stopPropagation();
                         return false;
                     }
 
